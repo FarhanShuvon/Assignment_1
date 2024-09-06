@@ -1,1 +1,0 @@
-{"name":"Local: check","url":"d:\\My java Folder\\check.java","tests":[{"id":1706638458006,"input":"4\n10\n10\n10\n20","output":"50"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\My java Folder\\check.java","group":"local","local":true}
