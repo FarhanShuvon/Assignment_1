@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="#edf6f9"> <!-- Set the background color here -->
+
+    <!-- TextView to display some text -->
+    <TextView
+        android:id="@+id/myTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_marginBottom="20dp" />
+
+    <!-- ImageView to display an image -->
+    <ImageView
+        android:id="@+id/myImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:src="@drawable/welcome"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Button to trigger actions -->
+    <Button
+        android:id="@+id/myButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click Here"
+        android:textColor="#000000"
+        android:background="#ffffff"
+        android:layout_marginBottom="20dp" />
+</LinearLayout>
